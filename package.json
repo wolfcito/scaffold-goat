@@ -1,5 +1,5 @@
 {
-  "name": "goat-daipp-template",
+  "name": "goat-daipp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,12 +15,23 @@
     "@goat-sdk/adapter-vercel-ai": "^0.2.9",
     "@goat-sdk/plugin-modespray": "^0.1.7",
     "@goat-sdk/wallet-viem": "^0.2.11",
+    "@radix-ui/react-scroll-area": "^1.2.3",
+    "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-switch": "^1.1.3",
+    "@radix-ui/react-tabs": "^1.1.3",
     "@rainbow-me/rainbowkit": "^2.2.4",
     "@tanstack/react-query": "^5.55.3",
     "ai": "^4.1.50",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.477.0",
     "next": "15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
     "viem": "2.23.3",
     "wagmi": "^2.14.11"
   },
@@ -35,6 +46,9 @@
     "eslint-config-next": "15.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "zod": "3.24.2"
   },
   "engines": {
     "node": ">=20.0.0"
